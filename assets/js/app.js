@@ -20,7 +20,7 @@ class VideoJuego {
         this.stock = stock;
     }
     printConsole(){ // Método impresion en consola de las propiedades y datos de los objetos.
-    console.log(`%c ITEM #${this.id}`,'color: black; font-weight: bold; background:#0f0;'); // Se aplica un poco de estilo al encabezado en consola.
+    console.log(`%cITEM #${this.id}`,'color: black; font-weight: bold; background:#0f0;'); // Se aplica un poco de estilo al encabezado en consola.
     console.log(`TÍTULO: ${this.titulo}\nPLATAFORMA: ${this.plataforma}\nGENERO: ${this.genero}\nAÑO: ${this.anio}\nSTOCK: ${this.stock}\n----------------------------\n`);
     
     }
