@@ -5,7 +5,8 @@
 
 //**** DECLARACION DE VARIABLES GLOBALES ****/
 const btnEjec = document.querySelector('#btnEjec'); // Como parte de sumar optimizacion al codigo, aplique algo de interaccion con el codigo HTML mediante un boton de ejecucion, y bootstrap.
-    id = 0; // Inicializo el identificador del item, el cual se incrementara con la creacion de cada objeto.
+let confirmacion = true;   
+let id = 0; // Inicializo el identificador del item, el cual se incrementara con la creacion de cada objeto.
 
 btnEjec.addEventListener('click', () => { // Llamado ejecucion del script mediante click del boton en el HTML.
 
